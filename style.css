@@ -44,21 +44,39 @@
         color: white;
         width: 2.8em;
     }
+}
+@media(max-width:450px){
+    .name{
+        font-size: 2em;
+        color: white;
+    }
+
+    .value>h1{
+        display: inline-block;
+        color: white;
+        width: 2em;
+    }
     .btn1{
         -webkit-border-radius: 10;
         -moz-border-radius: 10;
         border-radius: 10px;
         font-family: Georgia;
         color: #fffaff;
-        font-size: 21px;
+        font-size: 16px;
         background: #7a0505;
-        padding: 5px 15px 5px 15px;
+        padding: 5px 10px 5px 10px;
         text-decoration: none;
       }
-      
-      .btn1:hover {
-        background: #db0b35;
-        text-decoration: none;
-      }
-    
+}
+@media(max-width:321px){
+    .name{
+        font-size: 1.8em;
+        color: white;
+    }
+
+    .value>h1{
+        display: inline-block;
+        color: white;
+        width: 1.5em;
+    }
 }
